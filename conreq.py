@@ -15,9 +15,6 @@ if not con:
 else:
     print("boa")
 
-if con.is_connected():
-    print(con)
-
 query = "SELECT * FROM channel;"
 cur.execute(query)
 
